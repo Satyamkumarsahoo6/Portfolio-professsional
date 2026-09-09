@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><title>Satyam Sahoo - Portfolio</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-surface": "#dfe2ee", "outline": "#8c90a0", "on-primary-fixed-variant": "#00419c", "on-secondary": "#00315d", "on-secondary-fixed": "#001c39", "secondary-container": "#0267b8", "surface-tint": "#b0c6ff", "primary-fixed": "#d9e2ff", "on-background": "#dfe2ee", "surface-container": "#1c2028", "surface-container-highest": "#31353e", "primary-fixed-dim": "#b0c6ff", "surface-container-high": "#262a33", "error": "#ffb4ab", "error-container": "#93000a", "on-tertiary-fixed": "#001a42", "tertiary": "#adc6ff", "background": "#0f131c", "surface-variant": "#31353e", "secondary-fixed": "#d4e3ff", "inverse-surface": "#dfe2ee", "outline-variant": "#424654", "on-surface-variant": "#c2c6d7", "on-primary-container": "#fffeff", "inverse-primary": "#0058cc", "surface-container-lowest": "#0a0e16", "on-primary": "#002c6f", "surface": "#0f131c", "on-tertiary": "#002e6a", "on-error": "#690005", "surface-dim": "#0f131c", "primary-container": "#256fee", "on-secondary-container": "#d6e5ff", "secondary": "#a4c9ff", "tertiary-fixed": "#d8e2ff", "on-error-container": "#ffdad6", "primary": "#b0c6ff", "tertiary-container": "#2372e5", "tertiary-fixed-dim": "#adc6ff", "on-tertiary-container": "#fffeff", "on-tertiary-fixed-variant": "#004395", "inverse-on-surface": "#2c3039", "secondary-fixed-dim": "#a4c9ff", "surface-container-low": "#181c24", "surface-bright": "#353942", "on-primary-fixed": "#001945", "on-secondary-fixed-variant": "#004883" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-3xl": "4.5rem", "space-xl": "2rem", "space-2xl": "3rem", "gutter-mobile": "1rem", "space-xs": "0.5rem", "container-max": "72rem", "gutter-desktop": "1.5rem", "space-lg": "1.5rem", "space-2xs": "0.25rem", "space-sm": "0.75rem", "space-md": "1rem", "space-4xl": "6rem" }, fontFamily: { "body-md": ["Inter"], "headline-hero": ["Plus Jakarta Sans"], "label-ui": ["Inter"], "code-base": ["JetBrains Mono"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-hero-mobile": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "body-sm": ["Inter"], "label-code": ["JetBrains Mono"], "headline-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"] }, fontSize: { "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "label-ui": ["13px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "600" }], "code-base": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "label-code": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }] } } } };</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.15)]"><div class="h-16 px-gutter-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Satyam Sahoo Monogram Logo" class="h-8 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1VJsJG7Wn7mSQ2yE6ucLZD-y6z0mQmH5oCMlS2RonZq-LxD9c0DhsyQu7fmdFwrwj8BV9-HHd8WN_ErNsh0sBzaktk-t4dPi3lKajChPKmIrU8bhqJdvZZQW0hmWlXakq_4okMkE909cvIcX0M2X8HOM4vK5115fHYud-RVzduqr6VbZcBCcN1tUIKUX3Jl2oTm-hkla47u4pHyqufkNlYOmUDiASVopHOi-_A4BD37n6QmSlQjRrvMf2k"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-2xs"><span class="font-headline-sm text-headline-sm text-on-surface truncate">Satyam Sahoo</span><span class="font-label-code text-label-code text-primary hidden min-[380px]:inline-block">About</span></div><div class="flex items-center gap-space-2xs"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span><span class="font-label-code text-[10px] text-on-surface-variant truncate">Available for Internships</span></div></div></div><div class="flex items-center gap-space-xs shrink-0"><a class="min-h-[44px] min-w-[44px] px-space-xs py-space-2xs flex items-center justify-center gap-1 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-primary text-[18px]">description</span><span class="font-label-code text-label-code text-primary hidden min-[360px]:inline">CV</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full">
+<!-- Interactive Terminal Hero Background Glow -->
+<div class="relative px-gutter-mobile pt-space-md pb-space-2xl overflow-hidden">
+<!-- Ambient Radial Light -->
+<div class="absolute -top-16 left-1/2 -translate-x-1/2 w-72 h-72 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-space-lg max-w-container-max mx-auto">
+<!-- Status Chip & Code Pill -->
+<div class="flex flex-col gap-space-xs items-start">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-code text-label-code text-primary">CS &amp; ENGINEERING UNDERGRAD</span>
+</div>
+<div class="w-full bg-surface-container-lowest/80 rounded-xl p-space-sm shadow-md">
+<div class="flex items-center gap-1.5 mb-1.5 opacity-60">
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="font-label-code text-[11px] text-on-surface-variant ml-1">dev.sh</span>
+</div>
+<code class="font-label-code text-[11px] text-secondary block truncate">
+<span class="text-tertiary">const</span> focus = [<span class="text-primary">'SWE'</span>, <span class="text-primary">'AI/ML'</span>, <span class="text-primary">'Data Science'</span>];
+          </code>
+</div>
+</div>
+<!-- Identity & Impact Title -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-code text-label-code text-on-surface-variant uppercase tracking-wider">PORTFOLIO • 2025</span>
+<h1 class="font-headline-hero-mobile text-headline-hero-mobile text-on-surface tracking-tight font-extrabold">
+          Satyam Kumar <span class="text-primary">Sahoo</span>
+</h1>
+<p class="font-body-md text-body-md text-primary font-medium">
+          Computer Science &amp; Engineering Student
+        </p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-2xs">
+          Building practical, real-world software solutions at the intersection of Software Engineering, Artificial Intelligence, Machine Learning, and Data Science.
+        </p>
+</div>
+<!-- Call To Actions -->
+<div class="flex flex-col sm:flex-row gap-space-xs pt-space-xs">
+<a class="flex items-center justify-center gap-space-xs min-h-[48px] px-space-lg rounded-xl bg-primary-container text-on-primary-container font-label-ui text-label-ui shadow-md transition-transform active:scale-[0.98]" href="#projects">
+<span>Explore Projects</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="flex items-center justify-center gap-space-xs min-h-[48px] px-space-lg rounded-xl bg-surface-container text-on-surface font-label-ui text-label-ui hover:bg-surface-container-high transition-colors" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-primary text-[18px]">link</span>
+<span>LinkedIn Network</span>
+</a>
+</div>
+<!-- Quick Metrics Strip -->
+<div class="grid grid-cols-3 gap-space-2xs pt-space-sm">
+<div class="flex flex-col p-space-sm rounded-xl bg-surface-container shadow-sm text-center">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">12+</span>
+<span class="font-label-code text-[11px] text-on-surface-variant mt-0.5">Projects Built</span>
+</div>
+<div class="flex flex-col p-space-sm rounded-xl bg-surface-container shadow-sm text-center">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">100%</span>
+<span class="font-label-code text-[11px] text-on-surface-variant mt-0.5">Core CS Focus</span>
+</div>
+<div class="flex flex-col p-space-sm rounded-xl bg-surface-container shadow-sm text-center">
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">24/7</span>
+<span class="font-label-code text-[11px] text-on-surface-variant mt-0.5">Curious Learner</span>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 01: ABOUT ME -->
+<section class="px-gutter-mobile py-space-xl bg-surface-container-low" id="about">
+<div class="max-w-container-max mx-auto flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-code text-label-code text-primary">// 01. ABOUT</span>
+<div class="h-[1px] flex-1 bg-surface-container-highest"></div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">
+          Grounded in fundamentals, driven by building.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          I bridge theoretical computer science principles with hands-on software construction. As a curious student engineer, my primary focus is writing clean, maintainable code, dissecting algorithmic time complexity, and translating cutting-edge breakthroughs in AI &amp; Machine Learning into usable products.
+        </p>
+</div>
+<!-- Visual Bento Attribute Tiles -->
+<div class="grid grid-cols-1 gap-space-xs mt-space-2xs">
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-surface-container shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[22px]">psychology</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-label-ui text-label-ui text-on-surface font-semibold">Continuous Problem Solver</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Refining algorithmic intuition through structured Data Structures &amp; Algorithms challenges and modular OOP systems.
+            </p>
+</div>
+</div>
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-surface-container shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-secondary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary text-[22px]">rocket_launch</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-label-ui text-label-ui text-on-surface font-semibold">Pragmatic Builder</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Moving fast from ideation to shipped deployments with solid backend logic, responsive web interfaces, and automated test passes.
+            </p>
+</div>
+</div>
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-surface-container shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-tertiary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-tertiary text-[22px]">analytics</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-label-ui text-label-ui text-on-surface font-semibold">Data &amp; Intelligence Explorer</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Eagerly applying supervised learning, computer vision models, and exploratory telemetry to unpack non-obvious patterns.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 02: TECHNICAL SKILLS -->
+<section class="px-gutter-mobile py-space-xl" id="skills">
+<div class="max-w-container-max mx-auto flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-code text-label-code text-primary">// 02. TECHNICAL SKILLS</span>
+<div class="h-[1px] flex-1 bg-surface-container-highest"></div>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Engineering Toolchain</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Validated competency across languages, platforms, and intelligence frameworks.</p>
+</div>
+<div class="grid grid-cols-1 gap-space-sm mt-space-2xs">
+<!-- Card 1: Languages & Core -->
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">code</span>
+<span class="font-label-ui text-label-ui text-on-surface font-bold">Languages &amp; Core Systems</span>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-code text-[11px]">Java</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-code text-[11px]">Python</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">DSA</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">OOP Architecture</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">C / C++ Basics</span>
+</div>
+</div>
+<!-- Card 2: Web & Fullstack Engineering -->
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">layers</span>
+<span class="font-label-ui text-label-ui text-on-surface font-bold">Web &amp; Backend Engineering</span>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-secondary font-label-code text-[11px]">RESTful APIs</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-secondary font-label-code text-[11px]">Flask</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">HTML5 / CSS3</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">JavaScript</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">Git &amp; GitHub</span>
+</div>
+</div>
+<!-- Card 3: AI, ML & Data Science -->
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[20px]">smart_toy</span>
+<span class="font-label-ui text-label-ui text-on-surface font-bold">AI, ML &amp; Data Science</span>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-tertiary font-label-code text-[11px]">Machine Learning</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-tertiary font-label-code text-[11px]">TensorFlow / Keras</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">Scikit-Learn</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">Pandas &amp; NumPy</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">Data Visualization</span>
+</div>
+</div>
+<!-- Card 4: Systems & Infrastructure -->
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">cloud_sync</span>
+<span class="font-label-ui text-label-ui text-on-surface font-bold">Systems &amp; Database Foundations</span>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-code text-[11px]">SQL &amp; Relational DBs</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">Linux / Bash</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">Cloud Concepts (AWS)</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">Docker Basics</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 03: FEATURED PROJECTS -->
+<section class="px-gutter-mobile py-space-xl bg-surface-container-low" id="projects">
+<div class="max-w-container-max mx-auto flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-code text-label-code text-primary">// 03. PRACTICAL PROJECTS</span>
+<div class="h-[1px] flex-1 bg-surface-container-highest"></div>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Engineered Deliverables</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Production-grade academic experiments and software tools with real user utility.</p>
+</div>
+<div class="flex flex-col gap-space-md mt-space-2xs">
+<!-- Project 1: Crop Disease Detector -->
+<div class="flex flex-col rounded-xl bg-surface-container shadow-md overflow-hidden">
+<div class="relative w-full h-44 bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A futuristic modern agricultural laboratory monitor displaying an automated plant leaf neural network classification scan. Clean dark UI with glowing teal and cyan telemetry grids analyzing crop vitality in high resolution cinematic lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBW2AennZMIvuhMEIUhAi_WYVSXG1w8t4s8LbpVqmuuD6W7ZAkW_wQg-ObQz7EI_zF0R3gQb4nblYY3boY_yS6Tc8pEyNf9v_EOscbMMHDP4Y9PVajnAoyq4P3GgjgzP2Q7kgyG3H9maOkTgm3rjLSS0aRI7tzKQ35Zu68j4dsvl1t-6dasH2ac7T3y4EJUFnBDwHaduBrizfgPIYA-ueHgviBvLRoU5dur2VU4aC26R8J_q-YiGL4z"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 font-label-code text-[10px] text-primary">Computer Vision • CNN</span>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Automated Crop Disease Detector</h3>
+<div class="flex flex-col gap-1.5 text-body-sm text-on-surface-variant">
+<p><strong class="text-on-surface">Problem:</strong> Plant foliar infections trigger severe harvest loss when local agronomists are inaccessible.</p>
+<p><strong class="text-on-surface">Solution:</strong> Designed a transfer-learning CNN pipeline connected to an optimized web API, processing leaf images in under 300ms with high diagnostic certainty.</p>
+</div>
+<!-- Stack Badges -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-secondary">Python</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-secondary">TensorFlow</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-secondary">Flask API</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-on-surface-variant">OpenCV</span>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-xs pt-space-xs">
+<a class="flex-1 min-h-[40px] px-space-sm flex items-center justify-center gap-1.5 rounded-xl bg-primary-container text-on-primary-container font-label-ui text-label-ui shadow-sm" href="#">
+<span class="material-symbols-outlined text-[16px]">terminal</span>
+<span>View Code</span>
+</a>
+<a class="flex-1 min-h-[40px] px-space-sm flex items-center justify-center gap-1.5 rounded-xl bg-surface-container-high text-on-surface font-label-ui text-label-ui hover:bg-surface-bright transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>Live Demo</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Project 2: Algorithmic Code Visualizer -->
+<div class="flex flex-col rounded-xl bg-surface-container shadow-md overflow-hidden">
+<div class="relative w-full h-44 bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="An ultra-clean dark software development terminal showing an interactive graph pathfinding tree visualization with glowing blue nodes, edge weights, and sorted array step trackers on dark charcoal background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHwN9M33o1rwmFK41yYSiZoFKdhREjaaBGwckthCP4WPRsJ5TdlkMHYtHUGMr3ipKUob1YqzoSIYYczhzpouhcEE1px5hsNdEQdrPqxB7wmqLzENsYMKbTyTmuEU5MA28WqMb1hcPOI1Au9iud4z78j49utoN5T8vVANFhFO1BVWWwCgw0Xv3qWMuYDn8m2fIJA9CJWL4g_3ibAaSJ-t5a_ipHsP1wtFUT0r5rQpjDEtqvUh6RysnA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 font-label-code text-[10px] text-secondary">Algorithms • Interactive</span>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Algorithmic Code Visualizer</h3>
+<div class="flex flex-col gap-1.5 text-body-sm text-on-surface-variant">
+<p><strong class="text-on-surface">Problem:</strong> Grasping multi-state tree balance, Dijkstra pathing, and quicksort partitions remains abstract without live step playback.</p>
+<p><strong class="text-on-surface">Solution:</strong> Built an educational visual engine demonstrating memory state, pointer shifts, and complexity comparisons in real time.</p>
+</div>
+<!-- Stack Badges -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-primary">Java Backend</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-primary">JavaScript</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-primary">DSA Logic</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-on-surface-variant">SVG Canvas</span>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-xs pt-space-xs">
+<a class="flex-1 min-h-[40px] px-space-sm flex items-center justify-center gap-1.5 rounded-xl bg-primary-container text-on-primary-container font-label-ui text-label-ui shadow-sm" href="#">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>GitHub Repo</span>
+</a>
+<a class="flex-1 min-h-[40px] px-space-sm flex items-center justify-center gap-1.5 rounded-xl bg-surface-container-high text-on-surface font-label-ui text-label-ui hover:bg-surface-bright transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+<span>Try Tool</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Project 3: Customer Churn Analysis -->
+<div class="flex flex-col rounded-xl bg-surface-container shadow-md overflow-hidden">
+<div class="relative w-full h-44 bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="High-density statistical analytics dashboard showing correlation heatmaps, ROC curve metrics, and predictive churn probability score distribution graphs on a sleek dark mode software platform." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxbTDnLjWAhmUBLzDV9_X67wsGsqCz_I0NwecT6h6F05V6ZtyYIVyo8khP8tY9P1GLtEJ1MBdd85isD4yPqJl2G0ou9Hw_VPdiapW0ApKv2Vtkl62L9M7DrYFtCJiiqkETkuJJ3SbHLTyhTK77HcEoumunf_Atgd13lVRzflSgM6UAvWyiCo4KQPzKOjbRUveNoy68fMEn_QnW_DE6Gh2JoQ7zadMmV9n9CSqohgUTQ0xxLbDlIRJd"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 font-label-code text-[10px] text-tertiary">Data Science • Analytics</span>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Predictive Customer Churn Engine</h3>
+<div class="flex flex-col gap-1.5 text-body-sm text-on-surface-variant">
+<p><strong class="text-on-surface">Problem:</strong> Subscription businesses struggle to identify early drop-off signals hidden across high-dimensional customer usage logs.</p>
+<p><strong class="text-on-surface">Solution:</strong> Processed 50,000+ subscriber records, formulated feature engineering pipelines, and deployed an interactive decision support dashboard.</p>
+</div>
+<!-- Stack Badges -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-tertiary">Python</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-tertiary">Pandas</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-tertiary">Scikit-Learn</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-code text-[10px] text-on-surface-variant">Streamlit</span>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-xs pt-space-xs">
+<a class="flex-1 min-h-[40px] px-space-sm flex items-center justify-center gap-1.5 rounded-xl bg-primary-container text-on-primary-container font-label-ui text-label-ui shadow-sm" href="#">
+<span class="material-symbols-outlined text-[16px]">data_object</span>
+<span>GitHub Repo</span>
+</a>
+<a class="flex-1 min-h-[40px] px-space-sm flex items-center justify-center gap-1.5 rounded-xl bg-surface-container-high text-on-surface font-label-ui text-label-ui hover:bg-surface-bright transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">bar_chart</span>
+<span>Insights</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 04: LEARNING & CERTIFICATIONS -->
+<section class="px-gutter-mobile py-space-xl">
+<div class="max-w-container-max mx-auto flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-code text-label-code text-primary">// 04. CONTINUOUS LEARNING</span>
+<div class="h-[1px] flex-1 bg-surface-container-highest"></div>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Certifications &amp; Focus Tracks</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Systematic skill acquisition aligned with modern software engineering standards.</p>
+</div>
+<div class="grid grid-cols-1 gap-space-sm mt-space-2xs">
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-primary-container/20 flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-primary text-[18px]">school</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center justify-between gap-2">
+<h3 class="font-label-ui text-label-ui text-on-surface font-semibold">AI &amp; Machine Learning Foundations</h3>
+<span class="font-label-code text-[10px] text-primary shrink-0">COMPLETED</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Supervised training, gradient descent intuition, neural networks, and model evaluation techniques.
+            </p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-secondary-container/20 flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-secondary text-[18px]">hub</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center justify-between gap-2">
+<h3 class="font-label-ui text-label-ui text-on-surface font-semibold">Data Structures &amp; Algorithms Mastery</h3>
+<span class="font-label-code text-[10px] text-secondary shrink-0">ACTIVE</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Time/space optimization, graph traversals, dynamic programming, and structured algorithmic problem solving.
+            </p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-tertiary-container/20 flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-tertiary text-[18px]">cloud</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center justify-between gap-2">
+<h3 class="font-label-ui text-label-ui text-on-surface font-semibold">Cloud Computing &amp; Web Architecture</h3>
+<span class="font-label-code text-[10px] text-tertiary shrink-0">PROGRESS</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Microservices principles, REST lifecycle, database schema design, and serverless compute primitives.
+            </p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">insights</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center justify-between gap-2">
+<h3 class="font-label-ui text-label-ui text-on-surface font-semibold">Applied Data Science &amp; Telemetry</h3>
+<span class="font-label-code text-[10px] text-on-surface-variant shrink-0">VERIFIED</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Statistical tests, data hygiene pipelines with Pandas, feature extraction, and reproducible Jupyter workflows.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 05: CAREER DIRECTION -->
+<section class="px-gutter-mobile py-space-xl bg-surface-container-low">
+<div class="max-w-container-max mx-auto flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-code text-label-code text-primary">// 05. CAREER FOCUS</span>
+<div class="h-[1px] flex-1 bg-surface-container-highest"></div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container shadow-md flex flex-col gap-space-sm relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-32 h-32 rounded-full bg-primary-container/10 blur-2xl pointer-events-none"></div>
+<div class="inline-flex items-center gap-1.5 text-primary font-label-code text-[11px]">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span>TARGET ROLE SPECIFICATION</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">
+          Preparing for Software Engineer &amp; Intern Roles
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Eager to contribute directly to high-scale production systems within forward-thinking engineering organizations. My goal is to collaborate with seasoned mentors, implement reliable features, and synthesize deep foundations in Object-Oriented software, intelligent models, and robust cloud services.
+        </p>
+<div class="grid grid-cols-2 gap-space-xs pt-space-xs">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-ui text-label-ui">Code Quality</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-ui text-label-ui">Quick Adaptability</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-ui text-label-ui">Algorithmic Rigor</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-ui text-label-ui">Team First Mindset</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 06: CONNECT & COLLABORATE -->
+<section class="px-gutter-mobile py-space-2xl" id="contact">
+<div class="max-w-container-max mx-auto flex flex-col gap-space-lg text-center items-center">
+<div class="flex items-center gap-space-xs justify-center w-full">
+<span class="font-label-code text-label-code text-primary">// 06. CONNECT &amp; COLLABORATE</span>
+</div>
+<div class="flex flex-col gap-space-xs max-w-lg">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-bold">
+          Let's build something exceptional.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Currently open to Software Engineering internship opportunities, collaborative hackathons, research discussions, and open-source contributions.
+        </p>
+</div>
+<!-- Main Action Buttons -->
+<div class="flex flex-col w-full max-w-sm gap-space-xs">
+<a class="flex items-center justify-center gap-space-xs min-h-[48px] px-space-lg rounded-xl bg-primary-container text-on-primary-container font-label-ui text-label-ui shadow-lg transition-transform active:scale-[0.98]" href="mailto:satyamkumarsahoo.cs@gmail.com">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+<span>Email Satyam</span>
+</a>
+<a class="flex items-center justify-center gap-space-xs min-h-[48px] px-space-lg rounded-xl bg-surface-container text-on-surface font-label-ui text-label-ui hover:bg-surface-container-high transition-colors" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-primary text-[20px]">alternate_email</span>
+<span>Connect on LinkedIn</span>
+</a>
+<a class="flex items-center justify-center gap-space-xs min-h-[48px] px-space-lg rounded-xl bg-surface-container text-on-surface font-label-ui text-label-ui hover:bg-surface-container-high transition-colors" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-secondary text-[20px]">terminal</span>
+<span>Review GitHub Profile</span>
+</a>
+</div>
+<!-- Engineering Footer Info -->
+<div class="pt-space-xl flex flex-col items-center gap-space-2xs text-on-surface-variant border-t border-surface-container-highest w-full max-w-md">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+<span class="font-label-code text-[11px] text-on-surface">Systems Operational • Satyam Kumar Sahoo</span>
+</div>
+<p class="font-label-code text-[10px] text-outline">
+          Designed with analytical rigor • Built with modern web standards • © 2025
+        </p>
+</div>
+</div>
+</section>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.25)]" data-active-classes="text-primary font-semibold"><div class="flex justify-around items-center h-16 px-gutter-mobile"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] gap-space-2xs transition-colors text-primary font-semibold" data-path="about" href="#"><span class="material-symbols-outlined text-[20px]">account_circle</span><span class="font-label-ui text-label-ui">About</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] gap-space-2xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="skills" href="#"><span class="material-symbols-outlined text-[20px]">terminal</span><span class="font-label-ui text-label-ui">Skills</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] gap-space-2xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="#"><span class="material-symbols-outlined text-[20px]">code_blocks</span><span class="font-label-ui text-label-ui">Projects</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] gap-space-2xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#"><span class="material-symbols-outlined text-[20px]">alternate_email</span><span class="font-label-ui text-label-ui">Contact</span></a></div></nav></body></html>
